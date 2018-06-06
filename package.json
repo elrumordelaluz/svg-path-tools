@@ -1,0 +1,35 @@
+{
+  "name": "path-utils",
+  "version": "1.0.0",
+  "main": "dist/path-utils.cjs.js",
+  "module": "dist/path-utils.esm.js",
+  "browser": "dist/path-utils.umd.js",
+  "repository": "https://github.com/elrumordelaluz/path-utils.git",
+  "author": "Lionel T <elrumordelaluz@hotmail.com> (https://elrumordelaluz.com/)",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "ava",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "svg",
+    "path",
+    "paths",
+    "manipulation",
+    "tools"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "xo": {
+    "esnext": true
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "rollup": "0.59.4"
+  }
+}
