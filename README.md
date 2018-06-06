@@ -1,9 +1,9 @@
 <p align="center">
-  <img alt="Path that SVG!" title="Path that SVG!" src="logo.svg" width="450">
+  <img alt="SVG Path Tools!" title="SVG Path Tools!" src="logo.svg" width="450">
 </p>
 
 <p align="center">
-  Utilities to manipulate <code>path</code>, such as <code>parse</code> and <code>scale</code>.
+  Tools to manipulate <code>path</code>, such as <code>parse</code> and <code>scale</code>.
   <br />
   [wip]
 </p>
@@ -11,7 +11,7 @@
 ## Install
 
 ```zsh
-yarn add path-utils
+yarn add svg-path-tools
 ```
 
 ## Usage

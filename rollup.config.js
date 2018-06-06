@@ -6,7 +6,7 @@ export default [
     entry: 'src/index.js',
     dest: pkg.browser,
     format: 'umd',
-    moduleName: 'pathUtils',
+    moduleName: 'svgPathTools',
   },
 
   // CommonJS (for Node) and ES module (for bundlers) build.

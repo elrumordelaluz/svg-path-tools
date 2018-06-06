@@ -1,5 +1,5 @@
 import test from 'ava'
-import { scale, parse, stringify, scalePath } from './dist/path-utils.cjs'
+import { scale, parse, stringify, scalePath } from './dist/svg-path-tools.cjs'
 
 const d = 'M15 10A5 5 0 0 1 10 15A5 5 0 0 1 5 10A5 5 0 0 1 15 10z'
 const d_scaled =

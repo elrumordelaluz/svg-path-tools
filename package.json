@@ -1,9 +1,9 @@
 {
-  "name": "path-utils",
+  "name": "svg-path-tools",
   "version": "1.0.0",
-  "main": "dist/path-utils.cjs.js",
-  "module": "dist/path-utils.esm.js",
-  "browser": "dist/path-utils.umd.js",
+  "main": "dist/svg-path-tools.cjs.js",
+  "module": "dist/svg-path-tools.esm.js",
+  "browser": "dist/svg-path-tools.umd.js",
   "repository": "https://github.com/elrumordelaluz/path-utils.git",
   "author": "Lionel T <elrumordelaluz@hotmail.com> (https://elrumordelaluz.com/)",
   "license": "MIT",
