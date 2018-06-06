@@ -17,7 +17,7 @@ yarn add svg-path-tools
 ## Usage
 
 ```js
-import { parse, scale, stringify } from 'path-utils'
+import { parse, scale, stringify } from 'svg-path-tools'
 
 const d = 'M15 10A5 5 0 0 1 10 15A5 5 0 0 1 5 10A5 5 0 0 1 15 10z'
 const parsed = parse(d)
