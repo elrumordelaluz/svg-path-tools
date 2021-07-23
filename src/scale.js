@@ -40,7 +40,7 @@ export default (path, { scale = 1, scaleY, round = 3 } = {}) => {
     return {
       command,
       values: values.map((val, i) => {
-        return doValue((val *= i % 2 ? _x : _y))
+        return doValue((val *= i % 2 ? _y : _x))
       }),
     }
   })
